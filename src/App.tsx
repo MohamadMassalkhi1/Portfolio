@@ -1,6 +1,6 @@
 import React from 'react';
 import { ChakraProvider, ColorModeScript } from '@chakra-ui/react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import { theme } from './theme';
 import Layout from './components/Layout';
 import AppRoutes from './routes/AppRoutes';
