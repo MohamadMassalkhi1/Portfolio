@@ -174,7 +174,7 @@ const Home = () => {
             <HStack spacing={6} mt={8}>
               <Button
                 as="a"
-                href="/projects"
+                href="#/projects"
                 size="lg"
                 colorScheme="blue"
                 rightIcon={<Icon as={FaArrowRight} />}
