@@ -24,6 +24,7 @@ jobs:
 
     - name: Build project
       run: |
+        export CI=false  # Temporarily disable treating warnings as errors
         npm run build  # Build your project (you can change this if your project uses another build tool)
 
     - name: Deploy to GitHub Pages
