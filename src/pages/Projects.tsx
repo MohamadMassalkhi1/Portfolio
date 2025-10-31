@@ -38,29 +38,30 @@ const Projects = () => {
   // Static list of projects with their details
   const projectsList = [
     {
-      "name": "Brain Tumor Detection",
-      "description": "A deep learning model using CNNs to detect brain tumors from MRI images, deployed with Flask.",
-      "html_url": "https://github.com/MohamadMassalkhi1/AI-and-ML-Projects/tree/main/Brain_Tumor_Detection",
-      "topics": ["Deep Learning", "Medical AI", "Flask"]
-    },
-    {
-      "name": "Stock Price Prediction",
-      "description": "An LSTM-based deep learning model for time-series forecasting of stock prices.",
-      "html_url": "https://github.com/MohamadMassalkhi1/AI-and-ML-Projects/tree/main/Stock_Price_Prediction",
-      "topics": ["Deep Learning", "LSTM", "Finance", "Time Series"]
-    },
-    {
-      "name": "CartPole - Reinforcement Learning",
-      "description": "A reinforcement learning model using OpenAI Gym to balance a pole on a moving cart.",
-      "html_url": "https://github.com/MohamadMassalkhi1/AI-and-ML-Projects/tree/main/Car%20Pole%20-%20Reinforcement%20Learning",
-      "topics": ["Reinforcement Learning", "OpenAI Gym", "Deep Q-Learning"]
+      "name": "Data Center Optimization ",
+      "description": "A a reinforcement learning model using Deep Q-Networks to optimize cooling strategies in data centers, reducing energy and water consumption while maintaining safe operating temperatures.",
+      "html_url": "https://github.com/MohamadMassalkhi1/Data_Center_Optimization",
+      "topics": ["Reinforcement Learning", "Deep Q-Networks", "Data Centers"]
     },
     {
       "name": "RAG App",
       "description": "A Retrieval-Augmented Generation (RAG) application leveraging NLP and vector search for document processing.",
       "html_url": "https://github.com/MohamadMassalkhi1/RAG_App",
       "topics": ["Natural Language Processing", "LLMs", "AI Search"]
+    },
+    {
+      "name": "Student Performance Prediction ",
+      "description": "A machine learning model using multiple regressors to predict student exam scores based on demographic and educational features.",
+      "html_url": "https://github.com/MohamadMassalkhi1/Student-Performance-Prediction",
+      "topics": ["Machine Learning", "Supervised Learning", "Flask"]
+    },
+    {
+      "name": "Azure End-to-End Data Engineering Project",
+      "description": "Azure data pipeline using Data Factory, Data Lake, and Databricks (Bronze–Silver–Gold) and delivered actionable insights via Synapse Analytics and Power BI dashboards.",
+      "html_url": "",
+      "topics": ["Azure", "Data Engineering", "Databricks"]
     }
+
 
   ];
 

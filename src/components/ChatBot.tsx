@@ -25,7 +25,7 @@ const ChatBot = () => {
     setInput('');
 
     // Add AI response logic here
-    const botMessage = { text: "I'm here to help! (Add AI integration)", isBot: true };
+    const botMessage = { text: "I'm here to help!", isBot: true };
     setMessages((prev) => [...prev, botMessage]);
   };
 
