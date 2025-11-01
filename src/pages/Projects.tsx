@@ -143,9 +143,11 @@ const Projects = () => {
                   </Box>
                   
                   {/* GitHub link */}
-                  <Link href={project.html_url} isExternal color="blue.500">
-                    View on GitHub
-                  </Link>
+                  {project.html_url && (
+                    <Link href={project.html_url} isExternal color="blue.500">
+                      View on GitHub
+                    </Link>
+                  )}
                 </VStack>
               </Box>
             </motion.div>
