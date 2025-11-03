@@ -70,7 +70,7 @@ const Home = () => {
 
   // Social media links configuration
   const socialLinks = [
-    { icon: FaGithub, label: 'GitHub', href: 'https://github.com/MohamadMassalkhi1/AI-and-ML-Projects' },
+    { icon: FaGithub, label: 'GitHub', href: 'https://github.com/MohamadMassalkhi1?tab=repositories' },
     { icon: FaLinkedin, label: 'LinkedIn', href: 'https://linkedin.com/in/mohamadmassalkhi' },
     { icon: FaEnvelope, label: 'Email', href: 'mailto:mohmassalkhi@gmail.com' },
     { icon: FaFilePdf, label: 'Resume', href: process.env.PUBLIC_URL + '/Mohamad Massalkhi - Resume.pdf' }
