@@ -73,7 +73,7 @@ const Home = () => {
     { icon: FaGithub, label: 'GitHub', href: 'https://github.com/MohamadMassalkhi1/AI-and-ML-Projects' },
     { icon: FaLinkedin, label: 'LinkedIn', href: 'https://linkedin.com/in/mohamadmassalkhi' },
     { icon: FaEnvelope, label: 'Email', href: 'mailto:mohmassalkhi@gmail.com' },
-    { icon: FaFilePdf, label: 'Resume', href: '/Mohamad Massalkhi - Resume.pdf' }
+    { icon: FaFilePdf, label: 'Resume', href: process.env.PUBLIC_URL + '/Mohamad Massalkhi - Resume.pdf' }
   ];
 
   return (
